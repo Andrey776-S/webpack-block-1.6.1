@@ -1,0 +1,40 @@
+.slide-menu {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 9px;
+  margin-left: 20px;
+  overflow: hidden;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media (min-width: 768px) {
+.slide-menu {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+}
+
+.slide-menu a {
+  text-decoration: none;
+  color: #7E7E82;
+
+  white-space: nowrap;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-right: 4px;
+  padding: 8px 9px;
+}
+
+nav .slide-menu a:hover {
+  background: #FFFFFF;
+  border: 2px solid #B8FFEC;
+}
+
+.slide-menu a:focus {
+  background: #FFFFFF;
+  border: 2px solid #B8FFEC;
+}

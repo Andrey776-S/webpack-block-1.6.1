@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+}
+*,*::after,*::before {
+    box-sizing: inherit;
+}
+
+body {
+    position: relative;
+    min-width: 320px;
+   /* overflow-x: hidden;*/
+    font-family: TT Lakes, serif;
+    background: #F8F8F8;
+    padding: 0;
+    margin: 0;
+}
+
+@media (min-width: 1440px) {
+  body {
+    display: flex;
+  }
+  .aside {
+    display: flex;
+    flex: 0 0 20%;
+    background: #FFFFFF;
+    margin: 0;
+    padding: 0;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 80%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+ 
+}
+
+@import 'vars';
+@import 'fonts';
+@import 'header-container';
+@import 'slide-menu';
+@import 'main-container-block-1';
+@import 'container';
+@import 'header';
+@import 'swiper';
+@import 'tech-block';
+@import 'swiper2';
+@import 'tech-block2';
+@import 'service-block';
+@import 'service-block2';
+@import 'footer';
+@import 'menu-burger';
+@import 'feedback-block';
+@import 'call-block';

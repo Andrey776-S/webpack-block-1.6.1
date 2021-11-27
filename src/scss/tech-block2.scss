@@ -1,0 +1,139 @@
+.title {
+    background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
+      border-top: 1px solid #D9FFF5;
+  
+          &__text {
+        font-family: TT Lakes;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        text-transform: uppercase; 
+        color: #7E7E82;
+  
+        margin: 16px;
+        font-weight: 500;
+          }
+  }
+  @media (min-width:768px) {
+    .title {
+    
+        &__text {
+          margin-left: 24px;
+        }
+    }
+    
+  }
+  @media (min-width:768px) {
+    .title {
+    
+        &__text {
+          margin-left: 32px;
+        }
+    }
+    
+  }
+  
+  .tech-block2 {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 210px;
+    overflow: hidden;
+  
+    &__slide {
+      display: flex;
+      justify-content: space-evenly;
+      min-width: 224px;
+      max-width: 224px;
+      min-height: 160px;
+      background: #FFFFFF;
+      border: 1px solid #EAEAEA;
+      box-sizing: border-box;
+      border-radius: 6px;
+      margin: 24px 24px 24px 0;
+    }
+  }
+  
+  
+  @media (min-width: 300px) {
+   
+    .tech-block2 {
+        display: none;
+    }
+    .tech-block2__buttons {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .swiper2 {
+        display: none;
+    }
+    .tech-block2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        // margin-left: 32px;
+        // overflow: hidden;
+    }
+  
+    .tech-block2__buttons {
+      display: block;
+    }
+  }
+  
+  @media (min-width: 1440px) {
+    .tech-block2 {
+      margin-left: 32px;
+    }
+  }
+  
+  .tech-block {
+    &__text {
+      font-family: TT Lakes;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.2px;
+      color: #1B1C21;
+      text-decoration: none;
+      align-self: flex-start;
+      margin: 16px;
+    }
+  
+    &__btn {
+      align-self: flex-end;
+      padding: 16px;
+    }
+  
+    &__btn-icon {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
+  .tech-block2 {
+  
+    &__buttons {
+      margin-left: 24px;
+      margin-bottom: 32px;
+    }
+  }
+  
+  .button-show {
+  
+    &__icon {
+      margin-right: 16px;
+    }
+  }
+  .button-close {
+  
+    &__icon {
+      margin-right: 16px;
+      transform: rotate(180deg);
+    }
+    
+  }
+  
+  .class-overflowVisible {
+    overflow: visible;
+    max-height: none;
+  }

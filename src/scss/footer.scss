@@ -1,0 +1,104 @@
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 25px;
+    border-top: 1px solid #D9FFF5;
+  
+    &__developed {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      text-decoration: none;
+      font-family: TT Lakes;
+      font-size: 14px;
+      line-height: 16px;
+      color: #7E7E82;
+      margin-bottom: 16px;
+      margin-top: 16px;
+  
+      mix-blend-mode: normal;
+      opacity: 0.72;
+    }
+  
+    &__politics {
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+      font-family: TT Lakes;
+      font-size: 14px;
+      line-height: 16px;
+      color: #7E7E82;
+      margin-bottom: 16px;
+  
+      mix-blend-mode: normal;
+      opacity: 0.72;
+    }
+  
+    &__offer {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      text-decoration: none;
+      
+      font-family: TT Lakes;
+      font-size: 14px;
+      line-height: 16px;
+      color: #7E7E82;
+  
+      mix-blend-mode: normal;
+      opacity: 0.72;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .footer {
+      justify-content: center;
+      
+      flex-direction: row;
+  
+          &__developed {
+        justify-content: center;
+        text-align: left;
+        white-space: nowrap;
+        margin: 32px auto auto 24px;
+          }
+  
+          &__politics {
+        justify-content: center;
+        text-align: center;
+        white-space: nowrap;
+        margin: 32px auto auto 0;
+          }
+  
+          &__offer {
+        justify-content: end;
+        text-align: right;
+        white-space: normal;
+        max-width: 230px;
+  
+        margin: 32px 24px auto 0;
+          }
+  }
+  
+  }
+  
+  @media (min-width: 1440px) {
+    .footer {
+  
+          &__developed {
+        margin: 32px auto auto 31px;
+          }
+  
+          &__politics {
+        margin: 32px auto auto 0;
+          }
+  
+          &__offer {
+        margin: 32px 31px auto 0;
+        max-width: 330px;
+          }
+  }
+  
+  }
